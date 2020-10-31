@@ -130,23 +130,23 @@ server <- function(input, output){
     input$go
     
     if(input$select == "Normal"){ 
-      outputArgs = list(src = "C://Users//acer//Desktop//www//normal.png")
+      outputArgs = list(src = "www//normal.png")
 
     } else if(input$select == "Student t"){
-      outputArgs = list(src = "C://Users//acer//Desktop//www//student.png")
+      outputArgs = list(src = "www//student.png")
 
 
     } else if(input$select == "Snedecor F"){
-      outputArgs = list(src ="C://Users//acer//Desktop//www//f.png")
+      outputArgs = list(src ="www//f.png")
 
     } else if(input$select == "Pearson chi-square"){
-      outputArgs = list(src = "C://Users//acer//Desktop//www//chi.jpg")
+      outputArgs = list(src = "www//chi.jpg")
 
     } else if(input$select == "Poisson"){
-      outputArgs = list(src = "C://Users//acer//Desktop//www//poisson.png")
+      outputArgs = list(src = "www//poisson.png")
 
     } else if(input$select == "Uniform"){
-      outputArgs = list(src = "C://Users//acer//Desktop//www//uniform.png")
+      outputArgs = list(src = "www//uniform.png")
 
     } 
   
